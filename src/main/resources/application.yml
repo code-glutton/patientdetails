@@ -1,0 +1,8 @@
+cloud:
+  aws:
+    elasticache:
+      clusters:
+        - name: product-cache
+          expiration: 100
+        - name: patient-cache
+          expiration: 6000
